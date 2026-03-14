@@ -1,0 +1,12 @@
+1. This is a review of Brunie, Kadan, Sobel, and Ramesh, "Effect of emotional design on the energy and maximum height of poppers". I recommend rejecting the manuscript.
+
+2. The main method is fundamentally flawed. The authors filmed popper toys launching using a smartphone and measured the height. From the height, they used energy conservation to back calculate the launch velocity as shown in equations 1 and 2 and the results listed in the first two tables (mis-labeled as figures 1 and 2). This is circular; you cannot use energy conservation to compute the velocity that you intend to use to test if energy is conserved!
+
+3. The secondary method the authors claim to use ("to determine work done on the popper the vertical distane was measured during the compression") is not at all explained in a level of detail enough to be replicable. No raw data is given, but the results are mixed in with the (not-discussed) methods. No equation is given or graph to get the energy input of 0.15 J. 
+
+4. The figures 3 and 4 present as a continuous line something that is discrete (the trial number on the x axis); figure 5 presents no data?; and figure 6 repeats the unnumbered figure at the beginning -- a cartoon setup figure that is much too large, is not referred to anywhere, and is not particularly effective in explaining what was done.
+
+5. The basis for the authors claim that emotional design (happy sad etc) affects the launch velocity appears to be where the authors compare a t-statistic of 14.35 to an alpha significance level of 0.05! This is not how t-tests are used.
+
+6. If the authors are going to claim that emotional design affects the performance of these devices, that is an extraordinary claim that needs extraordinary evidence, but none of the evidence here stands up to scrutiny. Also the authors do not venture to suggest any mechanism for why there would be such a "significant" effect of "14.35 vs 0.05". 
+
