@@ -1,0 +1,20 @@
+Popper type,Trial,Mass g,Max Height ,Velocity m/s^2,Energy J
+Sad_Popper,1,5.4,1.23,4.91,0.0651
+Sad_Popper,2,5.4,1.24,4.93,0.0656
+Sad_Popper,3,5.4,1.28,5.01,0.0678
+Sad_Popper,4,5.4,1.3,5.05,0.0689
+Sad_Popper,5,5.4,1.25,4.95,0.0662
+Sad_Popper,AVG,5.4,1.26,4.97,0.067
+Happy_Popper,1,5.5,1.48,5.39,0.0799
+Happy_Popper,2,5.5,1.48,5.39,0.0799
+Happy_Popper,3,5.5,1.5,5.402,0.0803
+Happy_Popper,4,5.5,1.49,5.4,0.0802
+Happy_Popper,5,5.5,1.53,5.408,0.0805
+Happy_Popper,AVG,5.5,1.5,5.402,0.081
+,,Avg_Energy_J,Work_In_J,Efficiency,
+Efficiency,Happy,0.081,0.15,0.54,
+Efficiency,Sad,0.067,0.15,0.446,
+T value ,14.35,,,,
+Deg Freedom,8,,,,
+Alpha level,0.05,,,,
+threshold ,2.306,,,,
