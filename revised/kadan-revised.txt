@@ -1,0 +1,13 @@
+1. This is a review of the revised manuscript by Brunie, Kadan, Sobel, and Ramesh "Effect of popper condition and mass on the energy and maximum height of poppers". I recommend rejection. Previous comments were not addressed in the revision. It appears the authors did not even read the previous comments. I will repeat some of them here. 
+
+2. The main method is still fundamentally flawed and was not addressed. The authors used energy conservation to solve for the velocity from the height. They then used measurements of height to test energy conservation. This is circular.
+
+3. The secondary method (section 2.3) was to find the energy stored in the spring; but the equation used is wrong. The authors used F dx where F is the maximum force of the spring. This is not correct for hookean behavior or for nonlinear behavior. 
+
+4. The y-axis scaling on figures 3 and 4 appears misleading (what they are leading us to I am not sure).
+
+5. The statistical analysis still compares a t score of 14.35 to an alpha significance value of 0.05. This is not how t-tests are used!
+
+6. The authors never offer any justification why the "condition" (previously "emotional design") would have any affect on the mechanical performance of the devices even though they conclude "specimen condition was the primary factor influencing mechanical energy output rather than mass alone" (t=14.35 vs alpha=0.05 and messed up energy equations notwithstanding).
+
+
