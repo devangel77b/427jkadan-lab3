@@ -1,0 +1,244 @@
+\documentclass[reprint,amsmath,amssymb,aps,twoside]{revtex4-2} % for editor use only
+
+% For initial submission use these lines
+%\documentclass[amsmath,amssymb,aps,endfloats,linenumbers]{revtex4-2}
+
+
+
+% DO NOT CHANGE THINGS BELOW HERE
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{siunitx}
+%\usepackage{tikz,pgfplots}
+\sisetup{separate-uncertainty=true, multi-part-units=single}
+\usepackage[colorlinks,allcolors=blue]{hyperref}
+\usepackage{cleveref}
+\crefname{equation}{}{}
+\crefname{figure}{Fig.}{Figs.}
+\crefname{table}{Table}{Tables}
+\usepackage{svg}
+\svgpath{{./figures}}
+
+
+
+
+% set PDF metadata
+% AUTHORS EDIT THIS PART
+\hypersetup{%
+pdftitle={Effect of popper condition and mass on the energy and maximum height of poppers}, % full title here
+pdfauthor={Lorenzo Brunie, Jacob Kadan, Ethan Sobel, and Tarun Ramesh}, % full author list here
+}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE,RO]{J S\&E \textbf{2}, xx--xx (2026)} % FOR EDITOR ONLY
+\fancyhead[LO]{Brunie \emph{et al}} % if many authors
+%\fancyhead[LO]{John and Dee} % if short enough to list all authors
+\fancyhead[LE]{Effect of popper condition and mass} % full or short title depending on what fits
+%\fancyhead[LE}{Several species of small furry animals gathered together in a cave and grooving with a pict} % might be too long
+%\fancyhead[LE]{Several species grooving} % might be a short version of the title that fits
+\fancyfoot[C]{\thepage}
+\fancypagestyle{mytitlepage}{
+\fancyhf{}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{2}, xx--xx (2026)} % FOR EDITOR ONLY
+\fancyfoot[C]{\thepage}
+%\fancyfoot[L]{\scriptsize\copyright\ 2026 Journal of Science \& Engineering, \href{https://creativecommons.org/licenses/by-nc/4.0/}{CC-BY-NC 4.0}}
+}
+
+
+\begin{document}
+%\setcounter{page}{67} % FOR EDITOR USE ONLY
+%\linenumbers % FOR EDITOR USE ONLY
+
+% AUTHORS EDIT THIS PART
+\title{Effect of popper condition and mass on the energy and maximum height of poppers}
+\author{Lorenzo Brunie}
+\author{Jacob Kadan}
+\email[Contact author: ]{427jkadan@frhsd.com} % use FRHSD address
+\author{Ethan Sobel}
+\author{Tarun Ramesh}
+% For S&E authors
+\affiliation{Science \& Engineering Magnet Program, \href{https://manalapan.frhsd.com/}{Manalapan High School}, Englishtown, NJ 07726 USA}
+\date{\today}
+
+
+% AUTHORS PUT YOUR MANUSCRIPT IN BELOW HERE
+\begin{abstract}
+% This next line is needed because no one knows what a popper is if they havent done the lab...
+Poppers are inexpensive toys consisting of a ball and spring that are able to jump; each popper has an emoji design on its face.  Using poppers as a model system to examine energy conservation, this experiment investigated how their mass and design/condition affected their maximum height and total mechanical energy.  We examined two poppers, differentiated by mass and design/condition (\qty{5.50}{\gram} ``happy'' vs \qty{5.40}{\gram} ``sad''), and ran multiple trials. We recorded the maximum height and initial velocity using video kinematics.  We found that the heavier, happy popper consistently reached greater heights and had a higher initial velocity and total energy than the lighter, sad popper. Due to previous usage, mechanical warping would occur in the sad popper, illustrating the effect of the specimen's material condition on performance. We conclude that specimen condition, i.e. from previous usage, was the primary factor influencing mechanical energy output rather than mass alone.
+
+%\vspace{1em} % Add space before DOI
+%\noindent DOI: \href{https://doi.org/10.64804/xxxxxx}{10.64808/xxxxxx}
+\end{abstract}
+
+% For revtex format this will not print on the article page but will be used in setting 
+% the journal metadata so include keywords. Lowercase unless they are acronyms or proper nouns
+% and pick keywords that will actually help people find your work properly. 
+\keywords{kinematics, pop, time series}
+
+\maketitle\thispagestyle{mytitlepage}
+
+%The current column width is \the\columnwidth
+
+
+
+
+
+
+
+\section{Introduction}
+When an object is launched directly upwards, its energy gradually converts from kinetic
+to gravitational potential energy until the object reaches its maximum height. At this maximum
+height, the object then experiences a temporary state of rest, where the kinetic energy is fully
+converted to potential energy. The object then begins to drop towards the ground due to gravity,
+where the energy is converted into other forms of energy, like acoustic or thermal. We used the
+Law of Conservation of Energy, which states that energy cannot be created or destroyed but only
+transformed from one form to another, to calculate theoretical values for comparison with the
+values we got from Tracker Online. We hypothesized that previous usage of the popper, rather
+than the mass alone, would act as the primary factor determining launch velocities and max
+heights.
+
+In this experiment, we analyzed the mass of each popper (5.50g for "Happy" vs. 5.40g for
+"Sad") and its correlation with maximum height, initial launch velocity calculated from Tracker
+online analysis, total mechanical energy, and conversion efficiency. By comparing 5 trials per
+popper (Figures 1 and 2), we used statistical analysis to determine whether the observed
+variations in the data were significant or attributable to experimental error.
+    
+    
+    
+    
+    
+
+
+
+
+
+\section{Methods and materials}
+
+\subsection{Objects launched}
+To measure the height ($y$), both sets of poppers were launched. We used two meter sticks, taped to the wall at regular intervals, stacked on top of each other, with the first touching the ground and the second directly on top of the first. The purpose of the verbal countdown before each trial was to synchronize the popper's release and the start of the video recording. An iPhone 12 was utilized to record each launch at \qty{60}{frame\per\second}. Before the launch, the poppers' masses were recorded. The objects were released from rest at the moment the countdown reached zero, without any initial lift upwards. Each type of popper (happy, sad) was launched five times. We used frame-by-frame analysis with Tracker Online to record the poppers' highest points and initial velocities.
+
+\subsection{Work and energy input}
+To determine the work done on the popper, the vertical displacement of the center was measured
+during the compression. The popper was found to have a displacement of \qty{0.015}{\meter}.
+% This is a RESULT. It does not belong in the methods and materials section, it belongs in RESULTS. 
+
+\begin{equation}
+F = mg 
+\end{equation}
+
+% Guys this is very clearly wrong. The popper does not weigh 1.02 kg. 
+We placed the popper on a scale and observed that it weighed \qty{1.02}{\kilo\gram} before releasing it. The scale registered a mass equivalent of \qty{1.02}{\kilo\gram}. Using $F=mg,$ where $g=\qty{9. 8}{\meter\per\second}$), we calculated a force of approximately \qty{10.0}{\newton}. With an inversion distance of \qty{0.015}{\meter}, % What is inversion distance?
+the work input ($W=Fd$) was calculated utilizing a graph of force over displacement (Fig 9) \cite{tipler}. The integral was then taken from 0 to the maximum displacement. This value represents the total Elastic Potential Energy(EPE) stored in the popper before launch. Our method of estimating the compression force involved using a scale and slowly pushing down until the popper is properly displaced. This may have caused some data variations due to human error and the difficulty of perfectly centering the popper. However, due to impossible efficiencies calculated for each popper out method of estimating the compression force was evidently wrong. However, we can still conclude the effect of usage on the poppers from these efficiencies.    
+\begin{equation}
+W = \int_0^{x_{max}} F dx
+\end{equation}
+\begin{equation}
+\eta = \dfrac{\text{mechanical energy output}}{\text{work input}} \times 100\%
+\end{equation}
+\begin{equation} % What is this? Can't have efficiency greater than 100%
+\eta = \dfrac{\qty{0.082}{\joule}}{\qty{0.060}{\joule}} \times 100\% = \qty{136.7}{\percent}
+\end{equation}
+\begin{equation} % What is this? Can't have efficiency greater than 100%
+\eta = \dfrac{\qty{0.058}{\joule}}{\qty{0.045}{\joule}} \times 100\% = \qty{136.7}{\percent}
+\end{equation}
+    
+\subsection{Null and alternative hypotheses}
+% Why did you make this a different section. This makes no sense.
+% Also there is not physics reasoning given for why you pick these.
+Null hypothesis: The two poppers have equal mean launch velocities, maximum heights and initial velocities
+
+Alternative hypothesis: The two poppers have different mean launch velocities, maximum heights, and initial velocities
+
+    
+    
+\section{Results}
+
+
+
+
+\section{Discussion}
+
+\subsection{Analysis of mass and performance}
+The results of this experiment indicated that the 5.50g "Happy" popper had higher
+maximum heights, higher initial velocities, and greater mechanical energy than the 5.40g "Sad"
+popper. As seen in Figure 3, the 5.50g “Happy” popper reached an average height of 1.50 m,
+while the 5.40g “Sad ”popper reached an average of 1.26 m. Additionally, the average initial
+velocity for the heavier popper was 5.46 m/s, compared to 4.65 m/s for the lighter popper (
+Figure 4). These findings show that the 0.1g mass difference appears to correlate with the higher
+maximum heights, higher initial velocity, and greater mechanical energy observed. However, one
+possible explanation for these results is the condition of the poppers at launch. If the 5.50g
+“Happy ”popper was fresh out of the box while the 5.40g “Sad” popper was previously used, any
+previous launches of the 5.40g “Sad” popper could have resulted in deformation of the rubber,
+which led to the lower maximum heights, low initial velocity, and lower mechanical energy
+observed in the 5.40g “Sad” popper (Figure 5).
+
+\subsection{Energy efficiency and dissipation}
+By comparing the total mechanical energy to the calculated Work Input of 0.060 J for the
+Happy popper, and the calculated Work Input of 0.045J for the Sad popper we determined an
+efficiency of 136.7\% for the 5.50g “Happy” popper and 128.9\% for the 5.40g “Sad” popper.
+While these efficiencies are not possible in real life, the lower efficiency for the sad popper
+suggests it is less efficient due to the internal rubber degradation. ve While total energy is
+conserved within the universe, it is not conserved within our specific system, as energy is
+dissipated into the surroundings as thermal energy and sound during the launch. The gap in
+results suggests that the 5.50g “Happy” popper is more efficient at converting elastic potential
+energy into kinetic and gravitational potential energy (Figure 5), whereas the 5.40g “Sad” popper
+had higher internal energy dissipation. This is something that could have occurred if the 5.40g
+“Sad” popper had been used before our experiment. The previous usages of the popper would
+have led to a decrease in the spring constant. Repeated rubber deformation causes fatigue, which
+permanently reduces elasticity. A lower spring constant means less elastic potential energy is
+stored, reducing the energy available for launch.
+    
+\subsection{Statistical significance and experimental variables}
+The test confirms the statistical significance of deviations in mean initial velocity,
+maximum height, and launch velocity. The t-statistic of 28.9 is above the critical t-value of
+2.306 for 8 degrees of freedom at a = 0.05. We reject the null hypothesis that the two poppers
+have the same mean initial velocity, maximum height, and launch velocities since the p-value is
+significantly smaller than a = 0.05. Since both poppers were made from identical molds and
+materials, the energy gap is best explained by prior use, so the rejection of the null hypothesis
+does not imply that mass caused the variation. The 5.40g "Sad" popper likely underwent more
+usage, leading to warping and a lower spring constant. This physical degradation increased
+internal friction during the snap phase, releasing more energy as thermal and acoustic rather than
+kinetic energy, reducing the popper’s maximum height and launch velocity. Therefore, the data
+suggest that the condition of the specimen is the most likely independent variable influencing
+results rather than mass alone. Further supporting this conclusion, the Sad popper showed an
+average 6.4\% differencebetween Tracker and theoretical velocities, compared to only 0.8\% for
+the Happy popper. This suggests the Sad popper dissipates more energy, consistent with rubber
+degradation from prior use. Any future experiments should control for the popper condition by
+using brand-new poppers with varying mass or by measuring the k constant beforehand
+    
+
+
+
+
+    
+\section{Acknowledgements}
+We thank J Komitas and the Science \& Engineering Magnet Program for support. JK wrote the
+Introduction and performed all the equations. ES wrote the methods and materials and
+did the statistical analysis. LB also worked on the methods and materials and
+formatted all the equations. TR wrote the discussion and made the figures.
+
+
+% References – Do not spend too much time trying to perfectly format per MLA or whatever because journals often have their own preferred formats; as long as you have author, title, journal, year, volume, page number it will be findable. Peer reviewed journals or published work only; Food Girl’s Blog is not a peer reviewed journal; Wikipedia is not a peer reviewed journal; Webster’s Dictionary is not necessary in a scientific journal article. If I find fake references your paper will be rejected. 
+
+
+
+
+
+
+\bibliography{example.bib}
+%References
+%[1] P.A. Tipler and G. Mosca. Physics for Scientists and Engineers, 5th ed. (W H Freeman and Company, New York, 2004).
+%
+%“De Caelo : Aristotle : Free Download, Borrow, and Streaming : Internet Archive.” Internet Archive, 2026, archive.org/details/decaelo00aris. Accessed 12 Jan. 2026.
+%
+%Galilei, G. Dialogues Concerning Two New Sciences (1638).
+%
+%Chazot, Christophe. FizziQ. 5.0.4, Trapèze. Digital, 2025, Apple App Store.
+
+
+\end{document}
