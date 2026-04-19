@@ -96,9 +96,9 @@ to gravitational potential energy until the object reaches its maximum height. A
 height, the object then experiences a temporary state of rest, where the kinetic energy is fully
 converted to potential energy. The object then begins to drop towards the ground due to gravity,
 where the energy is converted into other forms of energy, like acoustic or thermal. We used the
-Law of Conservation of Energy, which states that energy cannot be created or destroyed but only
+Law of Conservation of Energy \cite{tipler}, which states that energy cannot be created or destroyed but only
 transformed from one form to another, to calculate theoretical values for comparison with the
-values we got from Tracker Online. We hypothesized that previous usage of the popper, rather
+values we got from Tracker Online \cite{tracker}. We hypothesized that previous usage of the popper, rather
 than the mass alone, would act as the primary factor determining launch velocities and max
 heights.
 
@@ -120,6 +120,14 @@ variations in the data were significant or attributable to experimental error.
 \section{Methods and materials}
 
 \subsection{Objects launched}
+\begin{figure}
+\begin{center}
+\includegraphics[width=\columnwidth]{figures/fig8.png}
+\end{center}
+\caption{Initial setup for data collection.}
+\label{fig:8}
+\end{figure}
+
 To measure the height ($y$), both sets of poppers were launched. We used two meter sticks, taped to the wall at regular intervals, stacked on top of each other, with the first touching the ground and the second directly on top of the first. The purpose of the verbal countdown before each trial was to synchronize the popper's release and the start of the video recording. An iPhone 12 was utilized to record each launch at \qty{60}{frame\per\second}. Before the launch, the poppers' masses were recorded. The objects were released from rest at the moment the countdown reached zero, without any initial lift upwards. Each type of popper (happy, sad) was launched five times. We used frame-by-frame analysis with Tracker Online to record the poppers' highest points and initial velocities.
 
 \subsection{Work and energy input}
@@ -157,8 +165,66 @@ Alternative hypothesis: The two poppers have different mean launch velocities, m
     
     
 \section{Results}
+\begin{table}
+\caption{Sad popper initial velocity and height data for $n=5$ replicates. $m=\qty{0.00540}{\kilo\gram}$, $v_0=\qty{4.65\pm0.05}{\meter\per\second}$, $h=\qty{1.26\pm0.03}{\meter}$, $\text{kE}=\qty{0.058\pm0.001}{\joule}$ and $\text{GPE}=\qty{0.067\pm0.002}{\joule}$. }
+\label{tab:3}
+\begin{center}
+\begin{ruledtabular}
+\begin{tabular}{SSS}
+{trial} & {$v_0$, \unit{\meter\per\second}} & {$h$, \unit{\meter}} \\
+\colrule\\
+1 & 4.60 & 1.23 \\
+2 & 4.65 & 1.24 \\
+3 & 4.72 & 1.28 \\
+4 & 4.68 & 1.30 \\
+5 & 4.60 & 1.25 \\
+\end{tabular}
+\end{ruledtabular}
+\end{center}
+\end{table}
 
+\begin{table}
+\caption{Happy popper initial velocity and height data for $n=5$ replicates. $m=\qty{0.00550}{\kilo\gram}$, $v_0=\qty{5.46\pm0.04}{\meter\per\second}$, $h=\qty{1.50\pm0.02}{\meter}$, $\text{kE}=\qty{0.082\pm0.001}{\joule}$ and $\text{GPE}=\qty{0.081\pm0.001}{\joule}$. }
+\label{tab:4}
+\begin{center}
+\begin{ruledtabular}
+\begin{tabular}{SSS}
+{trial} & {$v_0$, \unit{\meter\per\second}} & {$h$, \unit{\meter}} \\
+\colrule\\
+1 & 5.45 & 1.48 \\
+2 & 5.42 & 1.48 \\
+3 & 5.48 & 1.50 \\
+4 & 5.44 & 1.49 \\
+5 & 5.46 & 1.53 \\
+\end{tabular}
+\end{ruledtabular}
+\end{center}
+\end{table}
 
+\begin{figure}
+\begin{center}
+\includesvg{fig4}\includesvg{fig5}
+\end{center}
+\caption{Initial velocity ($v_0$) and height ($h$) data. Data from \cref{tab:3,tab:4}. For both $h$ (ANOVA; $p=\num{4.39e-7}$) and $v_0$ (ANOVA; $p=\num{2.27e-9}$), differences between happy and sad poppers are significant.}
+\label{fig:56}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includesvg[width=\columnwidth]{fig7a}
+\includesvg[width=\columnwidth]{fig7b}
+\end{center}
+\caption{Comparative energy profiles of happy versus sad poppers.}
+\label{fig:7}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\includesvg[width=\columnwidth]{work}
+\end{center}
+\caption{Force versus displacement. The work done in compressing the popper (shaded area) is $W=\qty{0.130\pm0.001}{\joule}$.}
+\label{fig:9}
+\end{figure}
 
 
 \section{Discussion}
@@ -223,22 +289,11 @@ did the statistical analysis. LB also worked on the methods and materials and
 formatted all the equations. TR wrote the discussion and made the figures.
 
 
-% References – Do not spend too much time trying to perfectly format per MLA or whatever because journals often have their own preferred formats; as long as you have author, title, journal, year, volume, page number it will be findable. Peer reviewed journals or published work only; Food Girl’s Blog is not a peer reviewed journal; Wikipedia is not a peer reviewed journal; Webster’s Dictionary is not necessary in a scientific journal article. If I find fake references your paper will be rejected. 
 
 
 
 
 
 
-\bibliography{example.bib}
-%References
-%[1] P.A. Tipler and G. Mosca. Physics for Scientists and Engineers, 5th ed. (W H Freeman and Company, New York, 2004).
-%
-%“De Caelo : Aristotle : Free Download, Borrow, and Streaming : Internet Archive.” Internet Archive, 2026, archive.org/details/decaelo00aris. Accessed 12 Jan. 2026.
-%
-%Galilei, G. Dialogues Concerning Two New Sciences (1638).
-%
-%Chazot, Christophe. FizziQ. 5.0.4, Trapèze. Digital, 2025, Apple App Store.
-
-
+\bibliography{lab.bib}
 \end{document}
