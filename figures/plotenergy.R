@@ -14,7 +14,9 @@ fig7a <- ggplot(plotdata, aes(x=etype,y=E,alpha=etype))+
       stat_summary(fun.data="mean_sdl",fun.args=list(mult=1),geom="errorbar",width=0.2,alpha=1)+
       ylab('energy, \\unit{\\joule}')+
       theme_bw(base_size=8)+
-      theme(legend.position="none",axis.title.x=element_blank())
+      theme(legend.position="none",
+	axis.title.x=element_blank(),
+	axis.title.y=element_text(margin=margin(r=8)))
 ggsave('fig7a.svg',plot=fig7a,width=3.4167,height=2,units="in")
 
 # sad energy figure
@@ -26,5 +28,7 @@ fig7b <- ggplot(plotdata, aes(x=etype,y=E,alpha=etype))+
       stat_summary(fun.data="mean_sdl",fun.args=list(mult=1),geom="errorbar",width=0.2,alpha=1)+
       ylab('energy, \\unit{\\joule}')+
       theme_bw(base_size=8)+
-      theme(legend.position="none",axis.title.x=element_blank())
+      theme(legend.position="none",
+	axis.title.x=element_blank(),
+	axis.title.y=element_text(margin=margin(r=8)))
 ggsave('fig7b.svg',plot=fig7b,width=3.4167,height=2,units="in")
