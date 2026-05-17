@@ -16,7 +16,8 @@ fig7a <- ggplot(plotdata, aes(x=etype,y=E,alpha=etype))+
       theme_bw(base_size=8)+
       theme(legend.position="none",
 	axis.title.x=element_blank(),
-	axis.title.y=element_text(margin=margin(r=8)))
+	axis.title.y=element_text(margin=margin(r=8)))+
+      annotate("text",x=3,y=0.13,label="happy",size=2.811)	
 ggsave('fig7a.svg',plot=fig7a,width=3.4167,height=2,units="in")
 
 # sad energy figure
@@ -30,5 +31,6 @@ fig7b <- ggplot(plotdata, aes(x=etype,y=E,alpha=etype))+
       theme_bw(base_size=8)+
       theme(legend.position="none",
 	axis.title.x=element_blank(),
-	axis.title.y=element_text(margin=margin(r=8)))
+	axis.title.y=element_text(margin=margin(r=8)))+
+      annotate("text",x=3,y=0.13,label="sad",size=2.811)		
 ggsave('fig7b.svg',plot=fig7b,width=3.4167,height=2,units="in")
