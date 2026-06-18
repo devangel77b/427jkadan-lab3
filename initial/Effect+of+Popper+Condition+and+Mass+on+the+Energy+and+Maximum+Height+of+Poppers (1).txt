@@ -1,0 +1,187 @@
+﻿Effect of Popper Condition and Mass on the Energy and Maximum Height of Poppers
+
+
+
+
+Lorenzo Bruine, Jacob Kadan, Ethan Sobel, Tarun Ramesh
+Science & Engineering Magnet Program, Manalapan High School, Englishtown, NJ 07726 USA
+(Dated: January 30, 2026)
+
+
+Abstract
+This experiment investigated how the mass and condition of the Poppers differentiated by mass ( 5.5g “Happy”  vs 5.4g “Sad”) determined their maximum height and total mechanical energy. We analyzed two poppers, one of each mass, and ran multiple trials. We recorded the maximum height using two stacked meter sticks, determined the time using a video camera, and determined velocity with a frame-by-frame lab using Tracker Online. We assumed negligible air resistance, and the Law of Conservation of Mechanical Energy was used to calculate the initial launch velocity and total mechanical energy for each trial. We found that the heavier popper (“Happy”) consistently reached greater heights and had a higher initial velocity and total energy than the lighter popper (“Sad”). These results suggest that specimen condition was the primary factor influencing mechanical energy output rather than mass alone. 
+Introduction
+        When an object is launched directly upwards, its energy gradually converts from kinetic to gravitational potential energy until the object reaches its maximum height. At this maximum height, the object then experiences a temporary state of rest, where the kinetic energy is fully converted to potential energy. The object then begins to drop towards the ground due to gravity, where the energy is converted into other forms of energy, like acoustic or thermal. Due to the Law of Conservation of Energy, which states that energy cannot be created or destroyed but only transformed from one form to another, we calculated the motion of the object using energy equations rather than kinematics. We hypothesized that the popper with greater mass would achieve higher launch velocities and maximum heights. 
+In this experiment, we analyzed the mass of each popper (5.5g for "Happy" vs. 5.4g for "Sad") and its correlation with maximum height, initial launch velocity calculated from energy conservation, total mechanical energy, and conversion efficiency. By comparing 5 trials per popper (Figures 1 and 2), we used statistical analysis to determine whether the observed variations in the data were significant or attributable to experimental error.
+
+
+
+
+
+
+Methods and Materials
+
+
+        2.1 Objects Launched
+                To measure the height (y), both sets of poppers were launched. We used two meter sticks taped to the wall using masking tape at regular intervals, stacked on top of each other, with the first touching the ground and the second being directly on top of the first meter stick. The purpose of the verbal countdown prior to each trial was to synchronize the popper's release and the start of the video recording. An iPhone 12 was utilized to record each launch at 60 frames per second. Before the launch, the poppers' masses were recorded. The objects were released from rest at the moment the countdown reached zero, without any initial lift upwards. Each type of popper (Happy, Sad) was launched 5 times. We used frame-by-frame analysis to record the poppers' highest point and their velocities Tracker Online software.
+
+
+2.2 Calculations:
+The Sad popper's maximum height was between 1.23 and 1.30 meters, while the Happy popper's was between 1.48 and 1.53 meters. These height measurements were used to calculate the initial launch velocity for each trial using conservation of mechanical energy.
+The relationship between kinetic energy at launch and gravitational potential energy at maximum height is given by (Tipler and Mosca, 2004) :
+
+Solving for the initial velocity gives (Tipler and Mosca, 2004)  :
+
+Using the initial velocity for each trial was calculated. The Sad popper had launch velocities ranging from 4.91 m/s to 5.05 m/s, while the Happy popper had velocities ranging from 5.39 m/s to 5.48 m/s. The calculated velocities formed two distinct clusters, with the Happy popper consistently exhibiting higher values.
+
+
+
+
+2.3 Work and Energy input 
+To determine the work done on the popper, the vertical displacement of the center was measured during the compression. The popper was found to  have a displacement of 0.015 m. 
+ 
+
+We placed the popper on a scale and observed that it weighed 1.02 kg before releasing it. The scale registered a mass equivalent of 1.02 kg. Using  (where g =), we calculated a force of approximately 10.0 Newton . With an inversion distance of 0.015m, the Work input () was calculated at 0.15 Joules (Tipler and Mosca, 2004). This value represents the total Elastic Potential Energy(EPE) stored in the popper before launch. Our method of estimating the compression force involved using a scale and slowly pushing down until the popper is properly displaced. This may have caused some data variations due to human error and the difficulty of perfectly centering the popper. 
+
+
+
+
+2.4: Null and Alternative Hypotheses 
+Null Hypotheses: The two poppers have equal mean launch velocities, maximum heights, and initial velocities.
+Alternative Hypotheses: The two poppers have different mean launch velocities, maximum heights, and initial velocities.  
+
+
+
+
+
+
+Results:
+Trial 1:             
+Trial 2:             
+Trial 3:             
+Trial 4:             
+Trial 5:     
+
+
+Trial
+	Mass (g)
+	Max Height (m)
+	max (m/s)
+	1
+	5.4
+	1.23
+	4.91
+	2
+	5.4
+	1.24
+	4.93
+	3
+	5.4
+	1.28
+	5.01
+	4
+	5.4
+	1.30
+	5.05
+	5
+	5.4
+	1.25
+	4.95
+	Average
+	5.4
+	1.26
+	4.97
+	Figure 1 : Sad Popper Max Height vs  Initial Heights
+
+
+Trial 1:             
+Trial 2:             
+Trial 3:             
+Trial 4:             
+Trial 5:     
+
+
+
+
+Trial
+	Mass (g)
+	Max Height (m)
+	max (m/s)
+	1
+	5.5
+	1.48
+	5.39
+	2
+	5.5
+	1.48
+	5.39
+	3
+	5.5
+	1.50
+	5.42
+	4
+	5.5
+	1.49
+	5.40
+	5
+	5.5
+	1.53
+	5.48
+	Average
+	5.5
+	1.50
+	5.42
+	Figure 2 : Happy Popper Max Height vs  Initial Heights
+
+
+  
+
+Figure 3 : Maximum Height Vs Trial Number 
+
+
+  
+
+Figure 4 : Initial Velocity Vs Trial Number 
+  
+
+Figure 5:Comparative energy profile of “Happy” vs “Sad” poppers. 
+  
+
+
+
+Figure 6: Initial setup for data collection 
+
+
+Total Mechanical Energy (Tipler,2004):   
+Average:
+Sad:        = .067 J
+Happy:   = .081 J
+The Sad popper had an average total mechanical energy of approximately 0.067 J, while the Happy popper had an average total mechanical energy of approximately 0.081 J.
+
+
+Statistical analysis of results:
+T test:  
+
+        A two-sample t-test was conducted to compare the mean initial velocities of poppers with different masses. The calculated t-value of 14.35 greatly exceeds the critical value at α = 0.05, indicating that the difference in means is statistically significant. Therefore, we reject the null hypothesis that the two poppers have equal mean launch velocities, maximum heights, and initial velocities.
+Discussion
+3.1 Analysis of Mass and Performance 
+The results of this experiment indicated that the 5.5g "Happy" popper had higher maximum heights, higher initial velocities, and greater mechanical energy than the 5.4g "Sad" popper. As seen in Figure 3, the 5.5g “Happy” popper reached an average height of 1.50 m, while the 5.4g “Sad ”popper reached an average of 1.26 m. Additionally, the average initial velocity for the heavier popper was 5.42 m/s, compared to 4.97 m/s for the lighter popper ( Figure 4). These findings show that the 0.1g difference in mass appears to correlate with the higher maximum heights, higher initial velocity, and greater mechanical energy observed. However, one possible explanation for these results would be the condition of the poppers when launched. If the 5.5g “Happy ”popper was fresh out of the box while the 5.4g “Sad” popper was previously used, any previous launches of the 5.4g “Sad” popper could have resulted in deformation of the rubber, which led to the lower maximum heights, low initial velocity, and lower mechanical energy observed in the 5.4g “Sad” popper (Figure 5). 
+
+
+3.2 Energy Efficiency and Dissipation
+By comparing the total mechanical energy to the calculated Work Input of 0.15 J, we determined an efficiency of 54% for the 5.5g  “Happy” popper and 44.6% for the 5.4g “Sad” popper. While total energy is conserved within the universe, it is not conserved within our specific system, as energy is dissipated into the surroundings as thermal energy and sound during the launch. The gap in results suggests that the 5.5g “Happy” popper is more efficient at converting elastic potential energy into kinetic and gravitational potential energy (Figure 5), whereas the 5.4g “Sad” popper had higher internal energy dissipation. This is something that could have occurred if the 5.4g “Sad” popper had been used before our experiment. The previous usages of the popper would have led to a decrease in the spring constant. Repeated rubber deformation causes fatigue, which permanently reduces elasticity. A lower spring constant means less elastic potential energy is stored, reducing the energy available for launch.
+
+
+3.3: Statistical Significance and Experimental Variables
+The test confirms the statistical significance of deviations in mean initial velocity, maximum height, and launch velocity. The t-statistic of 14.35 is above the critical t-value of  2.306 for 8 degrees of freedom at a = 0.05. We reject the null hypothesis that the two poppers have the same mean initial velocity, maximum height, and launch velocities since the p-value is significantly smaller than a= 0.05. Since both poppers were made from identical molds and materials, the energy gap is best explained by prior use, so the rejection of the null hypothesis does not imply that mass caused the variation. The 5.4g "Sad" popper likely underwent more usage, leading to warping and a lower spring constant. This physical degradation increased internal friction during the snap phase, releasing more energy as thermal and acoustic rather than kinetic energy, reducing the popper’s maximum height and launch velocity. Therefore, the data suggest that the condition of the specimen is the most likely independent variable influencing results rather than mass alone. Any future experiments should control for the popper condition by using brand-new poppers with varying mass or by measuring the k constant beforehand.         
+
+Acknowledgements 
+        Thank you, Dr. D. Evangelista, for guiding us through the process and assisting us with the lab. Thank you, Mrs. J. Komitas and the Science and Engineering Magnet Program, for providing us with the resources and lab space to conduct our research. Jacob Kadan wrote the Introduction and performed all the equations. Ethan Sobel wrote the methods and materials and did the statistical analysis. Lorenzo Bruine also worked on the methods and materials and formatted all the equations. Tarun Ramesh wrote the discussion and made the figures. 
+
+
+References
+ 
+Tipler and Mosca. 2004. Physics for Scientists and Engineers, Volume 1. 5th ed. W H Freeman.
+
+
+Tracker online. (n.d.). https://opensourcephysics.github.io/tracker-online/
